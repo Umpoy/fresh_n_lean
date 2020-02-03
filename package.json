@@ -1,0 +1,23 @@
+{
+  "name": "fresh_n_lean",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.css css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Umpoy/fresh_n_lean.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Umpoy/fresh_n_lean/issues"
+  },
+  "homepage": "https://github.com/Umpoy/fresh_n_lean#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

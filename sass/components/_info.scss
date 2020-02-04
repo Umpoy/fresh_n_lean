@@ -1,0 +1,44 @@
+.info {
+
+    &--image {
+        padding-top: 50%;
+    }
+
+    .image-1 {
+        background: url('../../images/paleo-img01.jpg') no-repeat center center; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: contain;
+    }
+
+    .image-2 {
+        background: url('../../images/paleo-img02.jpg') no-repeat center center; 
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+
+    .image-3 {
+        background: url('../../images/paleo-img03.jpg') no-repeat center center; 
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+
+    .image-4 {
+        background: url('../../images/paleo-img04.jpg') no-repeat center center; 
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+
+    .row {
+        margin: 10px 0;
+    }
+
+}
+

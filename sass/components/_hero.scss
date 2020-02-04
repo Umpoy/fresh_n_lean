@@ -1,0 +1,31 @@
+.hero {
+    background: url('../../images/paleo-hero.jpg') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    padding: 75px 25%;
+}
+
+.hero-text {
+    &--main {
+        animation: moveInLeft 1s ease-out;
+    }
+
+    &--sub {
+        animation: moveInRight 1s ease-out;
+    }
+
+    &--cta {
+        background-color: $color-primary-dark;
+        max-width: 300px;
+        width: 100%;
+        padding: 24px 0;
+        font-size: 16px;
+        line-height: 0;
+        animation: moveInBottom 1s ease-out;
+    }
+}
+
+

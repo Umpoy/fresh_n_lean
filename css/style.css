@@ -1,2 +1,181 @@
+@keyframes moveInLeft {
+  0% {
+    /* @start */
+    opacity: 0;
+    transform: translateX(-10rem); }
+  80% {
+    transform: translateX(1rem); }
+  100% {
+    /* @end */
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInRight {
+  0% {
+    /* @start */
+    opacity: 0;
+    transform: translateX(10rem); }
+  80% {
+    transform: translateX(-1rem); }
+  100% {
+    /* @end */
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInBottom {
+  0% {
+    /* @start */
+    opacity: 0;
+    transform: translateY(3rem); }
+  100% {
+    /* @end */
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes pulse-dot {
+  0% {
+    transform: scale(0.8); }
+  50% {
+    transform: scale(1); }
+  100% {
+    transform: scale(0.8); } }
+
 body {
-  background-color: red; }
+  box-sizing: border-box; }
+
+html {
+  height: 100vh; }
+
+* {
+  font-family: 'Heebo', 'Poppins'; }
+
+h1 {
+  font-weight: bold;
+  font-size: 45px; }
+
+p {
+  font-size: 12px;
+  color: #757575;
+  font-weight: 300; }
+
+.info-text {
+  padding-top: 30%;
+  padding-bottom: 30%; }
+  .info-text--pad-left {
+    padding-left: 17%; }
+  .info-text--pad-right {
+    padding-right: 17%; }
+  .info-text--title {
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 2px; }
+  .info-text--lead {
+    font-size: 32px;
+    text-transform: capitalize;
+    font-weight: 500; }
+  .info-text--sub {
+    font-size: 16px;
+    color: #757575;
+    font-weight: 300; }
+
+.hero {
+  background: url("../../images/paleo-hero.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  padding: 75px 25%; }
+
+.hero-text--main {
+  animation: moveInLeft 1s ease-out; }
+
+.hero-text--sub {
+  animation: moveInRight 1s ease-out; }
+
+.hero-text--cta {
+  background-color: #016A4E;
+  max-width: 300px;
+  width: 100%;
+  padding: 24px 0;
+  font-size: 16px;
+  line-height: 0;
+  animation: moveInBottom 1s ease-out; }
+
+.green {
+  background-color: #F8FDFA;
+  color: #03A57A;
+  padding: 40px 0;
+  font-family: 'Poppins';
+  letter-spacing: 2px; }
+
+.circle {
+  background-color: #dddddd;
+  height: 40px;
+  width: 40px;
+  margin: auto;
+  border-radius: 50%; }
+  .circle:hover {
+    transform: scale(2) translateY(-0.5rem);
+    transition: 1.5s; }
+    .circle:hover ~ .circle-text--title {
+      display: none; }
+    .circle:hover ~ .circle-text--hidden-text {
+      display: block;
+      animation: moveInBottom 2s ease-out; }
+
+.circle-text--hidden-text {
+  margin-top: 10px;
+  display: none;
+  transition: 0.2s all; }
+
+.info--image {
+  padding-top: 50%; }
+
+.info .image-1 {
+  background: url("../../images/paleo-img01.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: contain; }
+
+.info .image-2 {
+  background: url("../../images/paleo-img02.jpg") no-repeat center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain; }
+
+.info .image-3 {
+  background: url("../../images/paleo-img03.jpg") no-repeat center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain; }
+
+.info .image-4 {
+  background: url("../../images/paleo-img04.jpg") no-repeat center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain; }
+
+.info .row {
+  margin: 10px 0; }
+
+.navbar {
+  font-family: 'Poppins'; }
+  .navbar .logo {
+    max-width: 275px;
+    height: 90%; }
+  .navbar .nav-link {
+    color: #4D4D4D;
+    padding: 12px 20px !important; }
+  .navbar .nav-cta {
+    background-color: #03A57A;
+    padding: 11px 15px; }
+
+.cta {
+  color: white !important;
+  border-radius: 0;
+  font-family: 'Poppins'; }

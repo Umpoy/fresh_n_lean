@@ -18,5 +18,6 @@
   "homepage": "https://github.com/Umpoy/fresh_n_lean#readme",
   "devDependencies": {
     "node-sass": "^4.13.1"
-  }
+  },
+  "dependencies": {}
 }

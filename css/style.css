@@ -44,7 +44,7 @@ body {
   box-sizing: border-box; }
 
 html {
-  height: 100vh; }
+  height: 100%; }
 
 * {
   font-family: 'Heebo', 'Poppins'; }
@@ -59,8 +59,8 @@ p {
   font-weight: 300; }
 
 .info-text {
-  padding-top: 30%;
-  padding-bottom: 30%; }
+  padding-top: 10%;
+  padding-bottom: 14%; }
   .info-text--pad-left {
     padding-left: 17%; }
   .info-text--pad-right {
@@ -129,39 +129,72 @@ p {
   display: none;
   transition: 0.2s all; }
 
+.info--text {
+  width: 100%;
+  --width: 100%; }
+
 .info--image {
-  padding-top: 50%; }
+  height: var(--width); }
 
 .info .image-1 {
-  background: url("../../images/paleo-img01.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background: url("../../images/paleo-img01.jpg") center center no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
   background-size: contain; }
 
 .info .image-2 {
-  background: url("../../images/paleo-img02.jpg") no-repeat center center;
+  background: url("../../images/paleo-img02.jpg") center center no-repeat;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
   background-size: contain; }
 
 .info .image-3 {
-  background: url("../../images/paleo-img03.jpg") no-repeat center center;
+  background: url("../../images/paleo-img03.jpg") center center no-repeat;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
   background-size: contain; }
 
 .info .image-4 {
-  background: url("../../images/paleo-img04.jpg") no-repeat center center;
+  background: url("../../images/paleo-img04.jpg") center center no-repeat;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
   background-size: contain; }
 
-.info .row {
-  margin: 10px 0; }
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-row-gap: 1%; }
+
+@media (max-width: 425px) {
+  .item1 {
+    grid-area: item-one; }
+  .item2 {
+    grid-area: item-two; }
+  .item3 {
+    grid-area: three; }
+  .item4 {
+    grid-area: four; }
+  .item5 {
+    grid-area: five; }
+  .item6 {
+    grid-area: six; }
+  .item7 {
+    grid-area: seven; }
+  .item8 {
+    grid-area: eight; }
+  .grid {
+    grid-template-columns: 100%;
+    grid-template-areas: 'item-one' 'item-two' 'four' 'three' 'five' 'six' 'eight' 'seven'; }
+  .info--image {
+    height: 300px; }
+  .info-text--pad-left {
+    padding-left: 0; }
+  .info-text--pad-right {
+    padding-right: 0; } }
 
 .navbar {
   font-family: 'Poppins'; }

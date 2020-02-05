@@ -1,21 +1,21 @@
 .hero {
-    background: url('/fresh_n_lean/images/paleo-hero.jpg') no-repeat center center; 
+    background: url('../../images/paleo-hero.jpg') no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    // background-attachment: fixed;
+    background-attachment: fixed;
     height: 90vh;
     padding: 75px 25%;
 }
 
 .hero-text {
     &--main {
-        animation: moveInLeft 1.5s ease-out;
+        animation: moveInLeft 2s ease-out;
     }
 
     &--sub {
-        animation: moveInRight 1.5s ease-out;
+        animation: moveInRight 2s ease-out;
     }
 
     &--cta {
@@ -25,13 +25,14 @@
         padding: 24px 0;
         font-size: 16px;
         line-height: 0;
-        animation: moveInBottom 1.5s ease-out;
+        // animation: moveInBottom 1.5s ease-out;
     }
 }
 
 @media (max-width: 425px){
     .hero {
         padding: 75px 14%;
+        background-attachment: scroll;
     }
     .hero-text {
         background-color: rgba(102, 101, 101, 0.637);

@@ -6,7 +6,7 @@
     }
 
     .image-1 {
-        background: url('/fresh_n_lean/images/paleo-img01.jpg') center center no-repeat; 
+        background: url('../../images/paleo-img01.jpg') center center no-repeat; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -14,7 +14,7 @@
     }
 
     .image-2 {
-        background: url('/fresh_n_lean/images/paleo-img02.jpg') center center no-repeat; 
+        background: url('../../images/paleo-img02.jpg') center center no-repeat; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -22,7 +22,7 @@
     }
 
     .image-3 {
-        background: url('/fresh_n_lean/images/paleo-img03.jpg') center center no-repeat; 
+        background: url('../../images/paleo-img03.jpg') center center no-repeat; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -30,7 +30,7 @@
     }
 
     .image-4 {
-        background: url('/fresh_n_lean/images/paleo-img04.jpg') center center no-repeat; 
+        background: url('../../images/paleo-img04.jpg') center center no-repeat; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -47,7 +47,7 @@
 
 }
 
-@media (max-width: 425px){
+@media (max-width: 768px){
     .item1 {
         grid-area: item-one;
     }
@@ -74,15 +74,7 @@
     }
     .grid {
         grid-template-columns: 100%;
-        grid-template-areas: 
-        'item-one'
-        'item-two'
-        'four'
-        'three'
-        'five'
-        'six'
-        'eight'
-        'seven'    
+        grid-template-areas: 'item-one' 'item-two' 'four' 'three' 'five' 'six' 'eight' 'seven';
     }
 
     .info--image {

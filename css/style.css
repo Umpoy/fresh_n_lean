@@ -92,19 +92,20 @@ p {
     font-weight: 300; }
 
 .hero {
-  background: url("/fresh_n_lean/images/paleo-hero.jpg") no-repeat center center;
+  background: url("../../images/paleo-hero.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-attachment: fixed;
   height: 90vh;
   padding: 75px 25%; }
 
 .hero-text--main {
-  animation: moveInLeft 1.5s ease-out; }
+  animation: moveInLeft 2s ease-out; }
 
 .hero-text--sub {
-  animation: moveInRight 1.5s ease-out; }
+  animation: moveInRight 2s ease-out; }
 
 .hero-text--cta {
   background-color: #016A4E;
@@ -112,12 +113,12 @@ p {
   width: 100%;
   padding: 24px 0;
   font-size: 16px;
-  line-height: 0;
-  animation: moveInBottom 1.5s ease-out; }
+  line-height: 0; }
 
 @media (max-width: 425px) {
   .hero {
-    padding: 75px 14%; }
+    padding: 75px 14%;
+    background-attachment: scroll; }
   .hero-text {
     background-color: rgba(102, 101, 101, 0.637); }
     .hero-text--main, .hero-text--sub {
@@ -155,28 +156,28 @@ p {
   --width: 100%; }
 
 .info .image-1 {
-  background: url("/fresh_n_lean/images/paleo-img01.jpg") center center no-repeat;
+  background: url("../../images/paleo-img01.jpg") center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
 .info .image-2 {
-  background: url("/fresh_n_lean/images/paleo-img02.jpg") center center no-repeat;
+  background: url("../../images/paleo-img02.jpg") center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
 .info .image-3 {
-  background: url("/fresh_n_lean/images/paleo-img03.jpg") center center no-repeat;
+  background: url("../../images/paleo-img03.jpg") center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
 .info .image-4 {
-  background: url("/fresh_n_lean/images/paleo-img04.jpg") center center no-repeat;
+  background: url("../../images/paleo-img04.jpg") center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -187,7 +188,7 @@ p {
   grid-template-columns: 50% 50%;
   grid-row-gap: 1%; }
 
-@media (max-width: 425px) {
+@media (max-width: 768px) {
   .item1 {
     grid-area: item-one; }
   .item2 {

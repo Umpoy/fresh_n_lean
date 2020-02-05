@@ -97,10 +97,8 @@ p {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-attachment: fixed;
   height: 90vh;
-  padding: 75px 25%;
-  position: relative; }
+  padding: 75px 25%; }
 
 .hero-text--main {
   animation: moveInLeft 1.5s ease-out; }

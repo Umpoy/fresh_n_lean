@@ -245,8 +245,7 @@ p {
     margin: 0px 9px; } }
 
 .navbar {
-  font-family: 'Poppins';
-  height: 63px; }
+  font-family: 'Poppins'; }
   .navbar .logo {
     max-width: 225px; }
   .navbar .active a {
@@ -259,7 +258,7 @@ p {
     padding: 11px 20px; }
   .navbar li:hover {
     animation: bounce 1.5s ease-out; }
-  .navbar .show {
+  .navbar .show:after {
     background-color: white; }
 
 .cta {

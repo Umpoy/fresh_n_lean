@@ -4,11 +4,13 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 100vh;
+    background-attachment: fixed;
+    height: 90vh;
     padding: 75px 25%;
 }
 
 .hero-text {
+    
     &--main {
         animation: moveInLeft 1.5s ease-out;
     }
@@ -26,6 +28,10 @@
         line-height: 0;
         animation: moveInBottom 1.5s ease-out;
     }
+}
+
+@media (max-width:425px){
+
 }
 
 

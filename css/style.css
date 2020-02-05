@@ -97,7 +97,8 @@ p {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100vh;
+  background-attachment: fixed;
+  height: 90vh;
   padding: 75px 25%; }
 
 .hero-text--main {
@@ -239,19 +240,27 @@ p {
     padding: 4px 17px;
     font-size: 12px; }
 
+@media (max-width: 425px) {
+  i.fab {
+    margin: 0px 9px; } }
+
 .navbar {
-  font-family: 'Poppins'; }
+  font-family: 'Poppins';
+  height: 63px; }
   .navbar .logo {
-    max-width: 275px;
-    height: 90%; }
+    max-width: 225px; }
+  .navbar .active a {
+    color: #425B85 !important; }
   .navbar .nav-link {
     color: #4D4D4D;
     padding: 12px 20px !important; }
   .navbar .nav-cta {
     background-color: #03A57A;
-    padding: 11px 15px; }
+    padding: 11px 20px; }
   .navbar li:hover {
     animation: bounce 1.5s ease-out; }
+  .navbar .show {
+    background-color: white; }
 
 .cta {
   color: white !important;

@@ -1,23 +1,32 @@
 .navbar {
     font-family: 'Poppins';
+    height: 63px;
 
     .logo {
-        max-width: 275px;
-        height: 90%;
+        max-width: 225px;
+    }
+
+    .active a{
+        color: #425B85 !important;
     }
 
     .nav-link{
         color: #4D4D4D;
         padding: 12px 20px !important;
+
     }
 
     .nav-cta {
         background-color: $color-primary;
-        padding: 11px 15px;
+        padding: 11px 20px;
     }
 
     li:hover {
         animation: bounce 1.5s ease-out;
+    }
+
+    .show{
+        background-color: white;
     }
 }
 

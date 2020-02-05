@@ -7,10 +7,10 @@
     background-attachment: fixed;
     height: 90vh;
     padding: 75px 25%;
+    position: relative;
 }
 
 .hero-text {
-    
     &--main {
         animation: moveInLeft 1.5s ease-out;
     }
@@ -30,8 +30,17 @@
     }
 }
 
-@media (max-width:425px){
+@media (max-width: 425px){
+    .hero {
+        padding: 75px 14%;
+    }
+    .hero-text {
+        background-color: rgba(102, 101, 101, 0.637);
 
+        &--main, &--sub{
+            color: white;
+        }
+    }
 }
 
 

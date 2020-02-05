@@ -1,11 +1,28 @@
 .footer {
-  background-color: #E7EAEC;  
+    background-color: #E7EAEC;  
 
-  ul {
-      padding-left: 0;
-  }
+    h5 {
+        letter-spacing: 2px;
+        font-size: 17px;
+    }
 
-  li {
-      list-style: none;
-  }
+    ul {
+        padding-left: 0;
+    }
+
+    li {
+        list-style: none;
+
+        a {
+            font-size: 12px;
+            color: $text-light;
+            font-weight: 300; 
+        }
+    }
+
+    .pts, .pts a {
+        font-size: 10px;
+        color: $text-light;
+        font-weight: 300; 
+    }
 }

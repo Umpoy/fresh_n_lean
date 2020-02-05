@@ -76,7 +76,7 @@ p {
     font-weight: 300; }
 
 .hero {
-  background: url("../../images/paleo-hero.jpg") no-repeat center center;
+  background: url("/images/paleo-hero.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -131,28 +131,28 @@ p {
   --width: 100%; }
 
 .info .image-1 {
-  background: url("../../images/paleo-img01.jpg") center center no-repeat;
+  background: url("/images/paleo-img01.jpg") center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
 .info .image-2 {
-  background: url("../../images/paleo-img02.jpg") center center no-repeat;
+  background: url("/images/paleo-img02.jpg") center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
 .info .image-3 {
-  background: url("../../images/paleo-img03.jpg") center center no-repeat;
+  background: url("/images/paleo-img03.jpg") center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
 .info .image-4 {
-  background: url("../../images/paleo-img04.jpg") center center no-repeat;
+  background: url("/images/paleo-img04.jpg") center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

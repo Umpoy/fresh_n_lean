@@ -26,13 +26,19 @@
     opacity: 1;
     transform: translate(0); } }
 
-@keyframes pulse-dot {
-  0% {
-    transform: scale(0.8); }
-  50% {
-    transform: scale(1); }
-  100% {
-    transform: scale(0.8); } }
+@keyframes bounce {
+  0%, 100%, 20%, 50%, 80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0); }
+  40% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px); }
+  60% {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px); } }
 
 body {
   box-sizing: border-box; }
@@ -79,7 +85,7 @@ p {
     font-weight: 300; }
 
 .hero {
-  background: url("../../images/paleo-hero.jpg") no-repeat center center;
+  background: url("/fresh_n_lean/images/paleo-hero.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -134,28 +140,28 @@ p {
   --width: 100%; }
 
 .info .image-1 {
-  background: url("../../images/paleo-img01.jpg") center center no-repeat;
+  background: url("/fresh_n_lean/images/paleo-img01.jpg") center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
 .info .image-2 {
-  background: url("../../images/paleo-img02.jpg") center center no-repeat;
+  background: url("/fresh_n_lean/images/paleo-img02.jpg") center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
 .info .image-3 {
-  background: url("../../images/paleo-img03.jpg") center center no-repeat;
+  background: url("/fresh_n_lean/images/paleo-img03.jpg") center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
 .info .image-4 {
-  background: url("../../images/paleo-img04.jpg") center center no-repeat;
+  background: url("/fresh_n_lean/images/paleo-img04.jpg") center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -237,11 +243,15 @@ p {
   .navbar .nav-cta {
     background-color: #03A57A;
     padding: 11px 15px; }
+  .navbar li:hover {
+    animation: bounce 1.5s ease-out; }
 
 .cta {
   color: white !important;
   border-radius: 0;
   font-family: 'Poppins'; }
+  .cta:hover {
+    animation: bounce 1.5s ease-out; }
 
 .main-container {
   padding-bottom: 100px; }

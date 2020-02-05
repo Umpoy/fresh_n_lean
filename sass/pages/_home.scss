@@ -2,6 +2,9 @@
     color: white !important;
     border-radius: 0;
     font-family: 'Poppins';
+    &:hover{
+        animation: bounce 1.5s ease-out;
+    }
 }
 
 .main-container {

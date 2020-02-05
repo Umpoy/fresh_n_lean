@@ -15,6 +15,10 @@
         background-color: $color-primary;
         padding: 11px 15px;
     }
+
+    li:hover {
+        animation: bounce 1.5s ease-out;
+    }
 }
 
 

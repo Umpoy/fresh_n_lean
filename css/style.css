@@ -1,34 +1,28 @@
 @keyframes moveInLeft {
   0% {
-    /* @start */
     opacity: 0;
     transform: translateX(-10rem); }
   80% {
     transform: translateX(1rem); }
   100% {
-    /* @end */
     opacity: 1;
     transform: translate(0); } }
 
 @keyframes moveInRight {
   0% {
-    /* @start */
     opacity: 0;
     transform: translateX(10rem); }
   80% {
     transform: translateX(-1rem); }
   100% {
-    /* @end */
     opacity: 1;
     transform: translate(0); } }
 
 @keyframes moveInBottom {
   0% {
-    /* @start */
     opacity: 0;
     transform: translateY(3rem); }
   100% {
-    /* @end */
     opacity: 1;
     transform: translate(0); } }
 
@@ -58,6 +52,9 @@ p {
   color: #757575;
   font-weight: 300; }
 
+.capitalize {
+  text-transform: uppercase; }
+
 .info-text {
   padding-top: 10%;
   padding-bottom: 14%; }
@@ -67,11 +64,11 @@ p {
     padding-right: 17%; }
   .info-text--title {
     font-size: 20px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     letter-spacing: 2px; }
   .info-text--lead {
     font-size: 32px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-weight: 500; }
   .info-text--sub {
     font-size: 16px;
@@ -88,10 +85,10 @@ p {
   padding: 75px 25%; }
 
 .hero-text--main {
-  animation: moveInLeft 1s ease-out; }
+  animation: moveInLeft 1.5s ease-out; }
 
 .hero-text--sub {
-  animation: moveInRight 1s ease-out; }
+  animation: moveInRight 1.5s ease-out; }
 
 .hero-text--cta {
   background-color: #016A4E;
@@ -100,7 +97,7 @@ p {
   padding: 24px 0;
   font-size: 16px;
   line-height: 0;
-  animation: moveInBottom 1s ease-out; }
+  animation: moveInBottom 1.5s ease-out; }
 
 .green {
   background-color: #F8FDFA;
@@ -133,36 +130,33 @@ p {
   width: 100%;
   --width: 100%; }
 
-.info--image {
-  height: var(--width); }
-
 .info .image-1 {
   background: url("../../images/paleo-img01.jpg") center center no-repeat;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain; }
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 .info .image-2 {
   background: url("../../images/paleo-img02.jpg") center center no-repeat;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain; }
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 .info .image-3 {
   background: url("../../images/paleo-img03.jpg") center center no-repeat;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain; }
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 .info .image-4 {
   background: url("../../images/paleo-img04.jpg") center center no-repeat;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain; }
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 .grid {
   display: grid;
@@ -196,6 +190,13 @@ p {
   .info-text--pad-right {
     padding-right: 0; } }
 
+.footer {
+  background-color: #E7EAEC; }
+  .footer ul {
+    padding-left: 0; }
+  .footer li {
+    list-style: none; }
+
 .navbar {
   font-family: 'Poppins'; }
   .navbar .logo {
@@ -212,3 +213,6 @@ p {
   color: white !important;
   border-radius: 0;
   font-family: 'Poppins'; }
+
+.main_container {
+  padding-bottom: 100px; }

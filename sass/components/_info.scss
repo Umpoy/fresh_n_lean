@@ -5,40 +5,36 @@
         --width: 100%;
     }
 
-    &--image {
-        height: var(--width);
-    }
-
     .image-1 {
         background: url('../../images/paleo-img01.jpg') center center no-repeat; 
-        -webkit-background-size: contain;
-        -moz-background-size: contain;
-        -o-background-size: contain;
-        background-size: contain;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 
     .image-2 {
         background: url('../../images/paleo-img02.jpg') center center no-repeat; 
-        -webkit-background-size: contain;
-        -moz-background-size: contain;
-        -o-background-size: contain;
-        background-size: contain;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 
     .image-3 {
         background: url('../../images/paleo-img03.jpg') center center no-repeat; 
-        -webkit-background-size: contain;
-        -moz-background-size: contain;
-        -o-background-size: contain;
-        background-size: contain;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 
     .image-4 {
         background: url('../../images/paleo-img04.jpg') center center no-repeat; 
-        -webkit-background-size: contain;
-        -moz-background-size: contain;
-        -o-background-size: contain;
-        background-size: contain;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 }
 

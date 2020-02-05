@@ -13,6 +13,10 @@ p {
     font-weight: 300;
 }
 
+.capitalize {
+    text-transform: uppercase;
+}
+
 .info-text {
 
     padding-top: 10%;
@@ -27,12 +31,12 @@ p {
 
     &--title {
         font-size: 20px;
-        text-transform: capitalize;
+        text-transform: uppercase;
         letter-spacing: 2px;
     }
     &--lead {
         font-size: 32px;
-        text-transform: capitalize;
+        text-transform: uppercase;
         font-weight: 500;
     }
     &--sub {
